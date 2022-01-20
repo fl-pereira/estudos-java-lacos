@@ -1,0 +1,26 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class Ex1_NomeIdade {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String nome;
+		int idade;
+		
+		while(true) {
+			System.out.println("Insira o nome: ");
+			nome = sc.next();
+			
+			if(nome.equals("0")) break;
+				
+			System.out.println("Insira a idade: ");
+			idade = sc.nextInt();
+		
+			System.out.println(nome + " | " + idade);
+		}
+		
+	}
+
+}
